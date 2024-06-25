@@ -11,6 +11,18 @@ li{
 
 }
 
+html{
+    height: 100%; 
+ }
+ 
+ body{
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+ }
+ img[alt="Fotodeperfil"] {
+     border-radius: 25px;
+ }
 
 header ul {
     list-style-type: none;
@@ -21,7 +33,7 @@ header ul {
 
 
 main{
-    height: 70vh;
+    flex-grow: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,7 +59,7 @@ outline: none;
 border: none;
 }
 
-#buscador.icono-buscador{
+#buscador .icono-buscador{
     margin: 5px;
     width: 30px;
     height: 30px;
@@ -86,6 +98,7 @@ footer ul{
     display: flex;
     list-style: none;
     font-size: 15 px;
+    margin: 8px auto;
 }
 
 
@@ -98,6 +111,13 @@ a[target]{
     color: black;
     text-decoration: none;
 }
+
+
+.listas-inferiores{
+    border-top: 1px solid #dadce0;
+    display: flex;
+}
+
 
 
 /*Modelo de caja boc model
